@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><title> 播放器 · 卮言日出 </title>
+    <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="browsermode" content="application">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="卮言日出">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="msapplication-navbutton-color" content="#666666">
+<meta name= "format-detection" content="telephone=no" />
+<meta name="keywords" content="nlvi, Nlvi" />
+
+    <link rel="apple-touch-icon"  sizes="72x72"  href="/yyfish.jpg">
+    <link rel="apple-touch-icon-precomposed"  sizes="72x72"  href="/yyfish.jpg">
+
+
+
+
+
+
+<link rel="stylesheet" href="/style/style.css">
+
+
+<script src="/script/jquery.min.js"></script>
+
+<script>
+    var CONFIG = {
+        title: "卮言日出",
+        author: "陰陽魚",
+        lightbox: true,
+        animate: true
+    }
+</script>
+
+
+
+    
+<link rel="stylesheet" href="/lightbox/css/lightbox.min.css">
+
+
+
+
+
+    
+<link rel="stylesheet" href="/syuanpi/syuanpi.min.css">
+
+
+
+
+
+    <link rel="icon" href="/yyfish.jpg">
+
+
+
+
+
+
+
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="卮言日出" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="progress">
+    <div class="progress-inner"></div>
+</div>
+    <div class="body">
+    <div class="tagcloud-mask"></div>  
+<div class="tagcloud" id="tagcloud">
+    <div class="tagcloud-inner">
+        <a href="/tags/%E5%81%B6%E6%9C%89%E6%89%80%E6%80%9D/" style="font-size: 14px;">偶有所思</a> <a href="/tags/%E6%9B%B8%E5%B1%B1%E8%A6%8B%E8%81%9E%E9%8C%84/" style="font-size: 14px;">書山見聞錄</a> <a href="/tags/%E6%A8%99%E9%BB%9E%E7%AC%A6%E8%99%9F/" style="font-size: 14px;">標點符號</a>
+    </div>
+</div>
+    <header class="header" id="header">
+    <div class="title syuanpi tvIn">
+    <div class="table">
+        <div class="connect">
+            <div class="connect-inner">
+                <span><a href="/">卮言日出</a></span>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <nav class="main-nav syuanpi tvIn">
+<div class="table">
+
+    <ul class="menu">
+        
+        <li class="menu-item">
+            <a href="javascript:;" id="search">
+                <span>搜尋</span>
+                
+                    <span class="menu-item-label">search</span>
+                
+            </a>
+        </li>
+        
+        
+        
+            <li class="menu-item">
+                <a target="_blank" rel="noopener" href="https://github.com/shadowquark/comments">
+                    <span>評論</span>
+                    
+                        <span class="menu-item-label">comments</span>
+                    
+                </a>
+            </li>
+        
+        
+        
+            <li class="menu-item">
+                <a href="/archives">
+                    <span>歸檔</span>
+                    
+                        <span class="menu-item-label">archives</span>
+                    
+                </a>
+            </li>
+        
+        
+        
+            <li class="menu-item">
+                <a href="javascript:;" id="tags">
+                    <span>標籤</span>
+                    
+                        <span class="menu-item-label">tags</span>
+                    
+                </a>
+            </li>
+        
+        
+        
+            <li class="menu-item">
+                <a target="_blank" rel="noopener" href="https://shadowquark.tumblr.com">
+                    <span>舊版</span>
+                    
+                        <span class="menu-item-label">tumblr</span>
+                    
+                </a>
+            </li>
+        
+        
+        
+            <li class="menu-item">
+                <a href="https://shadowquark.github.io/yyFish">
+                    <span>魚</span>
+                    
+                        <span class="menu-item-label">yyFish</span>
+                    
+                </a>
+            </li>
+        
+        
+        
+            <li class="menu-item">
+                <a href="/about">
+                    <span>關於</span>
+                    
+                        <span class="menu-item-label">about</span>
+                    
+                </a>
+            </li>
+        
+        
+        
+            <li class="menu-item">
+                <a href="/atom.xml">
+                    <span>訂閱</span>
+                    
+                        <span class="menu-item-label">RSS</span>
+                    
+                </a>
+            </li>
+        
+        
+    </ul>
+
+</div>
+</nav>
+</header>
+<div class="mobile-header">
+    <div class="mobile-header-body">
+        <div class="mobile-header-list">
+            
+            
+                <div class="mobile-nav-item">
+                    <a target="_blank" rel="noopener" href="https://github.com/shadowquark/comments">
+                        <span>評論</span>
+                        
+                            <span class="menu-item-label">comments</span>
+                        
+                    </a>
+                </div>
+            
+            
+            
+                <div class="mobile-nav-item">
+                    <a href="/archives">
+                        <span>歸檔</span>
+                        
+                            <span class="menu-item-label">archives</span>
+                        
+                    </a>
+                </div>
+            
+            
+            
+                <div class="mobile-nav-item inner-cloud">
+                    <div class="mobile-nav-tag">
+                        <a href="javascript:;" id="mobile-tags">
+                            <span>標籤</span>
+                            
+                                <span class="menu-item-label">tags</span>
+                            
+                        </a>
+                    </div>
+                    <div class="mobile-nav-tagcloud">
+                        <div class="mobile-tagcloud-inner">
+                            <a href="/tags/%E5%81%B6%E6%9C%89%E6%89%80%E6%80%9D/" style="font-size: 14px;">偶有所思</a> <a href="/tags/%E6%9B%B8%E5%B1%B1%E8%A6%8B%E8%81%9E%E9%8C%84/" style="font-size: 14px;">書山見聞錄</a> <a href="/tags/%E6%A8%99%E9%BB%9E%E7%AC%A6%E8%99%9F/" style="font-size: 14px;">標點符號</a>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            
+                <div class="mobile-nav-item">
+                    <a target="_blank" rel="noopener" href="https://shadowquark.tumblr.com">
+                        <span>舊版</span>
+                        
+                            <span class="menu-item-label">tumblr</span>
+                        
+                    </a>
+                </div>
+            
+            
+            
+                <div class="mobile-nav-item">
+                    <a href="https://shadowquark.github.io/yyFish">
+                        <span>魚</span>
+                        
+                            <span class="menu-item-label">yyFish</span>
+                        
+                    </a>
+                </div>
+            
+            
+            
+                <div class="mobile-nav-item">
+                    <a href="/about">
+                        <span>關於</span>
+                        
+                            <span class="menu-item-label">about</span>
+                        
+                    </a>
+                </div>
+            
+            
+            
+                <div class="mobile-nav-item">
+                    <a href="/atom.xml">
+                        <span>訂閱</span>
+                        
+                            <span class="menu-item-label">RSS</span>
+                        
+                    </a>
+                </div>
+            
+            
+        </div>
+    </div>
+    <div class="mobile-header-nav">
+        <div class="mobile-header-item" id="mobile-left">
+            <div class="header-menu-item">
+                <span class="header-menu-line"></span>
+            </div>
+        </div>
+        <h1 class="mobile-header-title">
+            <a href="/">卮言日出</a>
+        </h1>
+        <div class="mobile-header-item"></div>
+    </div>
+</div>
+
+    <div class="container  ispost  ">
+        <main class="main" id="main">
+            
+    
+    <article class="post">
+        <header class="post-header">
+            <div class="post-time syuanpi riseIn-light back-1">
+                <span>2020年2月24日</span>
+                
+            </div>
+            <h1 class="post-title syuanpi riseIn-light back-2">
+            
+                播放器
+            
+            </h1>
+            
+                
+            
+        </header>
+        <div class="post-content syuanpi riseIn-light back-3">
+            
+                <p>　　之前买 Walkman 40 周年纪念时推出的 NW-A100 时，有人让我写一篇评测。现在用了一阵子，就随便说两句。</p>
+<span id="more"></span>
+<p>　　</p>
+<p>　　大多数人会觉得，在这个智能手机时代，播放器是没有什么意义的，或者只对部分发烧友有意义。我之前一直在用 FiiO 的 M11，推我的 DT990 和 DT1770。配合起来的表现非常好，令我满意。按说，我就是那种需要用 HiFi 播放器驱动 HiFi 耳机的人，更没有理由再去买一个非 HiFi 的普通播放器了。但是让我重新关注非 HiFi 播放器的契机，恰是我买 M11 的时候浏览了 FiiO 的产品线。我发现 FiiO 把以前 iPod 有的产品几乎都做了一遍。比如类似 shuffle 的 M5，类似 touch 的 M9&#x2F;M6，类似老 nano 的 M3K 等等。而且几乎所有产品线都在保持更新，说明其实有人需要他们。我是那种比较喜欢搞清楚既存产品能满足什么需求、再去评价这些产品好不好、值不值的人。所以这类产品显然引发了我一阵思考，并最终决定入手了 Sony 的 A100。当然去年 apple 发布的 iPod touch，其实我也做了些许考虑。最终因为它的诸多硬伤，我就没买。</p>
+<p>　　</p>
+<p>　　如果我们今天拿起任何一个非 HiFi 播放器，我们会发现它既不像手机那么大，也不像 HiFi 播放器那么砖，价格也普遍就是 1000 多块，贵点的也不超过 2500 元，最便宜的大概几百块。这个价格对于一个使用周期 3 年以上的产品来说，实在无法和动辄破 6000 的智能手机相提并论。我买非 HiFi 播放器随身使用的机缘是我的备用机有点卡，打算退役了，但是当我再去想买个新备用机时发现，很少有小手机了［我以前一直用 xperia compact］，很少有带耳机孔的手机了。为什么要有一个备用机呢，其实我主要就是为了听有声书和音乐，顺便当个怀表看时间。因为高码率的蓝牙是重要的电老虎，主力机根本撑不出，看看有多少人随身常备移动电源，就能理解我在说什么。尤其是 Android 全面支持 LDAC 和 aptX HD 之后，几乎所有好点的蓝牙耳机，都会自动通过三倍于从前码率的编码，来传输音频。我最早发现，如果我带两个手机，有一个专门播放音频，那么不用带移动电源，就能解决全天续航，总重量还轻于一个移动电源。终于，在我研究了 FiiO 的主页后，我发现与其再买一个手机，不如再买一个播放器。当时首先想到的就是苹果刚刚更新，我又用了 2356 代的 iPod Touch。然后经研究，因为 iOS 对音频支持的不足，该设备无法使用 LDAC 和 aptX HD 这样的高码率蓝牙标准，也不支持最近大热的 MQA 进行二次解压。当然最重要的还是在管理音乐方面，内置存储往往不如外置存储卡方便。以前用 iPod touch 的时候，买个 64G 的都有大量空间安游戏。现在光音乐我的 M11 中就有近 300 GB，再买下一个设备的时候，重新迁移几百 GB，并不是很方便。但是如果卡没坏，tf 卡只要拔出来放在新设备里就搞定了。我们再来看看 Sony 和 FiiO 等 Android 非 HiFi 播放器提供了什么。从 DSD 到 wav 到 flac&#x2F;ape&#x2F;mqa 全支持，不需要折腾任何软件，基本上手上有的资源放进去就听，而且全部支持不用转成 PCM 的原码直出，当数字转盘完美胜任。全套的实体按键，在路上切歌、调音量比用触屏方便，更比各种『Hi 傻叉』方便。最近一代的播放器更强大了，不但可以发射蓝牙，还可以接收蓝牙，解决蓝牙耳机没电、反复配对麻烦、有线音箱当无线用的问题。而且很多 Android 播放器还支持 NFC 触碰配对，这也是我当初放弃 iPod Touch 的重要原因。换句话说，一个现代化的播放器，是把所有跟音乐沾边的功能，甭管用得上用不上，都打包起来以很小的体积奉献给用户。在这个角度看，即使不是什么 HiFi 用户，不是什么音乐发烧友，它也有普遍的价值。只不过这类设备的媒体暴光度不高，即使能满足很多人的实际需求，这些人也未必能知道他们。</p>
+<p>　　</p>
+<p>　　以前 Android 播放器一直有个短板，就是续航不大好。我这次用的 A100，如果不用的时候打开飞行模式 + 省电模式，大概每三个小时耗电 1%，也就是可以待机 300 个小时，超过 12 天。用的时候，在最耗电的 LDAC 蓝牙传输情况下，用 10+ 个小时也基本没问题。总之在睡觉前无论白天怎么用它基本不会没电，晚上睡觉插上就好。如果不用打开飞行省电来待机。在均分了手机的需求后，手机的使用时间也大大增强。总得来说，只要活用飞行模式和省电模式，目前续航已经不是一个大问题了。当然如果不开飞行模式，一直连着 WiFi 播放音乐，那么续航依然不容乐观。所以无论 Android 播放器，还是非智能播放器，其主要应用场景，都还是播放缓存在本地的音乐，而无法真正边听边下。当然，这也是所有播放器都支持存储卡的原因。</p>
+<p>　　</p>
+<p>　　上面介绍了一下目前播放器的市场现状和功能特点，除了追求高音质的 HiFi 用户会买 HiFi 播放器或 USB DAC 外，普通播放器的最核心价值，可能非常古典，那就是想办法收集音乐管理到本地。流媒体的音乐说下架就下架是很正常的，无论是国内的内容管制，还是国内外都有的版权撕逼，都有类似风险。更重要的是，很多国内存在审查压力的作品，也根本没有登录国外平台，所以自己手机就成了唯一的办法。因为整理本地音乐是有时间成本的，所以一个单独支持内存卡的播放器很适合承担这个工作。CD 和 DVD 都是可以完整免费扒盘的媒介，只要认真收集，会给自己留下一笔不错的音频财富。甚至以后传辈，都是非常值得的。</p>
+<p>　　</p>
+<p>　　播放器其实还有一些潜在功能我在开发，比如很多手机是没有耳机口的，这不太适合 line out 模拟信号用来录音。因为现在很多音频都是 app 加密的格式，想保存下来的最好方法，尤其是针对评书、相声等不那么诉求音质的内容，是 line out 到录音笔采集。现在一方面是审核，一方面商业公司可能倒闭、和艺人的合作可能随时结束，再有一方面就是想和他人分享传播都高度受制于当下的发行体系。目前还没开发出来有没有可能不用额外的采集设备进行录制，但总之是一个值得研究的方向。</p>
+<p>　　<br>　　随口说了几句关于播放器的想法，因为仿佛已经看到了一个不那么美好的未来。</p>
+
+            
+        
+        </div>
+        
+            
+            
+        
+    </article>
+    
+        
+    <nav class="article-page">
+        
+            <a href="/buy/" id="art-left" class="art-right">
+                <span class="next-title">
+                    消费、生产、自主<i class="iconfont icon-right"></i> 
+                </span>
+            </a>
+        
+        
+            <a href="/%E4%B8%8E%E6%9C%AA%E7%9F%A5%E5%85%B1%E7%94%9F/" id="art-right" class="art-left">
+                <span class="prev-title"> 
+                    <i class="iconfont icon-left"></i>与未知共生
+                </span>
+            </a>
+        
+    </nav>
+
+        
+    
+
+
+        </main>
+        <footer class="footer syuanpi fadeIn" id="footer">
+    <hr>
+    <div class="footer-wrapper">
+        <div class="left">
+            <div class="contact-icon">
+    
+    
+    
+    
+    
+    
+    
+    
+        
+            <a target="_blank" rel="noopener" href="https://github.com/shadowquark" class="iconfont icon-github" title="github"></a>
+        
+        
+        
+        
+        
+        
+        
+    
+</div>
+        </div>
+        <div class="right">
+            <div class="copyright">
+    <div class="info">
+        <span>&copy;</span>
+        <span>2008 ~ 2025</span>
+        <span>❤</span>
+        <span>陰陽魚</span>
+    </div>
+    <div class="theme">
+        <span>
+            動力來自
+            <a href="http://hexo.io/" target="_blank">Hexo </a>
+        </span>
+        <span>
+            樣式
+            <a target="_blank" rel="noopener" href="https://github.com/ColMugX/hexo-theme-Nlvi"> Nlvi </a>
+        </span>
+    </div>
+    
+</div>
+        </div>
+    </div>
+</footer>
+    </div>
+    
+<script src="/script/nlvi.js"></script>
+
+
+<script src="/script/search.js"></script>
+
+
+    
+<script src="/lightbox/js/lightbox.min.js"></script>
+
+
+<script>
+$(document).ready(function(){
+    document.body.addEventListener('touchstart', function () {});
+    $('.progress').hide();
+    $('.body').show();
+    Nlvi.tagcloud();
+    Nlvi.mobileHeader();
+    Nlvi.back2top();
+    Nlvi.smoothScroll();
+    Nlvi.onView();
+    Nlvi.showToc();
+    Nlvi.showComments();
+    Nlvi.showReward();
+    Nlvi.picPos();
+
+    !CONFIG.animate && Nlvi.offAnimate();
+    CONFIG.lightbox && Nlvi.onPicBox();
+})
+</script>
+    </div>
+    
+        
+    <div class="post-toc">
+        <span class="title">文章目录</span>
+        <div class="toc-inner syuanpi back-1 fallIn-light">
+            <li class="title-link"><a href="javascript:;" class="toTop">播放器</a></li>
+            
+        </div>
+    </div>
+
+    
+    <div class="backtop syuanpi dead toTop" id="backtop">
+    <i class="iconfont icon-up"></i>
+    <span style="text-align:center;font-family:Georgia;"><span style="font-family:Georgia;" id="scrollpercent">1</span>%</span>
+</div>
+    
+    <div class="search" id="search">
+        <div class="mask" id="mask"></div>
+        <div class="search-wrapper syuanpi">
+            <h1 id="search-header" class="syuanpi">搜索一下？</h1>
+            <div class="input">
+                <input type="text" id="local-search-input" results="0" name="">
+            </div>
+            <div id="local-search-result"></div>
+        </div>
+    </div>
+    <script>
+    var GREETING = {
+        morning: "",
+        noon: "",
+        after: "",
+        night: "",
+        midnight: ""
+    }
+    $(document).ready(function(){
+        Nlvi.search();
+    });
+    </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+</body>
+</html>
